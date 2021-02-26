@@ -1,0 +1,15 @@
+import turtle
+t = turtle.Turtle()
+s = turtle.getscreen()
+t.pencolor("purple")
+t.fillcolor("yellow")
+t.pensize(10)
+t.speed(10)
+t.begin_fill()
+for i in range(0, 20):
+    t.circle(100)
+    t.penup()
+    t.rt(20)
+    t.pendown()
+
+t.end_fill()
